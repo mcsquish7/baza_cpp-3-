@@ -9,6 +9,7 @@ class Address
 private:
 	string city, street;
 	int num_h, num_ap;
+
 public:
 	Address(string city, string street, int num_h, int num_ap)
 	{
@@ -28,7 +29,7 @@ public:
 };
 
 int main()
-{	
+{
 	setlocale(LC_ALL, "Russian");
 	ifstream fin("in.txt");
 	if (!fin.is_open())
@@ -39,9 +40,10 @@ int main()
 	int addr = 0;
 	if (!(fin >> addr))
 	{
-		cout << "Ошибка чтения файла"; return -1;
+		cout << "Ошибка чтения файла";
+		return -1;
 	}
-	Address** all_addr = new Address*[addr];
+	Address **all_addr = new Address *[addr];
 	string city, street;
 	int num_h, num_ap;
 	for (int i = 0; i < addr; ++i)
@@ -67,7 +69,7 @@ int main()
 	while (swaped)
 	{
 		swaped = false;
-		for (int i = 0; i < addr-1; ++i)
+		for (int i = 0; i < addr - 1; ++i)
 		{
 			if (all_addr[i + 1]->asni_num_sort() > all_addr[i]->asni_num_sort())
 			{
@@ -76,8 +78,8 @@ int main()
 			}
 		}
 	}
-	
-	for (int i = addr-1; i >= 0; --i)
+
+	for (int i = addr - 1; i >= 0; --i)
 	{
 		fout << all_addr[i]->get_outfile_addr() << endl;
 	}
@@ -86,11 +88,10 @@ int main()
 
 	for (int i = 0; i < addr; i++)
 	{
-		delete all_addr[i];
+		delete[] all_addr[i];
 	}
 
 	delete[] all_addr;
-
 
 	return 0;
 }
