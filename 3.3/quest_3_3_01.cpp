@@ -54,7 +54,7 @@ int main()
 		cout << "Ошибка открытия файла out.txt";
 		for (int i = 0; i < addr; i++)
 		{
-			delete all_addr[i];
+			delete[] all_addr[i];
 		}
 		delete[] all_addr;
 		return -1;
