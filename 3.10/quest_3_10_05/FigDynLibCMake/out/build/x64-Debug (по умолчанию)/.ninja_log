@@ -1,0 +1,15 @@
+# ninja log v5
+272	1742	807102464	CMakeFiles/FigDynLib.dir/class_Triangle.cpp.obj	fa5936c7a00bc16b
+59	1743	807102464	CMakeFiles/FigDynLib.dir/class_Parallelogramm.cpp.obj	40ab3789704a5d9
+150	1752	807102464	CMakeFiles/FigDynLib.dir/class_Figure.cpp.obj	c153099248bc2d17
+88	1753	807102464	CMakeFiles/FigDynLib.dir/class_RB_triangle.cpp.obj	5f985282bd4e1f37
+211	1754	807102464	CMakeFiles/FigDynLib.dir/class_RS_triangle.cpp.obj	bca0613a4804b32d
+180	1754	807102464	CMakeFiles/FigDynLib.dir/class_Romb.cpp.obj	f05927a238d4c937
+119	1756	807102464	CMakeFiles/FigDynLib.dir/class_PR_q.cpp.obj	de238085a7a63cb7
+242	1756	807102464	CMakeFiles/FigDynLib.dir/class_Square.cpp.obj	f02410ca5a220ffb
+30	1757	807102464	CMakeFiles/FigDynLib.dir/class_PR_triangle.cpp.obj	490049e7647d1dd8
+1	1758	807102464	CMakeFiles/FigDynLib.dir/class_Quadrilateral.cpp.obj	9d11187c65db67b9
+1758	5770	807102468	FigDynLib.dll	5a2d0bd9c52d59c1
+1758	5770	807102468	FigDynLib.lib	5a2d0bd9c52d59c1
+0	810	807102683	CMakeFiles/FigDynLibCMakeExe.dir/quest_3_10_05.cpp.obj	3be122dbe74af1d2
+811	4176	807102686	FigDynLibCMakeExe.exe	ca56b5dc343fd530

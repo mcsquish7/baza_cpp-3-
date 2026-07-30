@@ -1,0 +1,2 @@
+F:\cpp_netology\LeaverDynamicLib\Debug\LeaverDynamicLib.dll
+F:\cpp_netology\LeaverDynamicLib\Debug\LeaverDynamicLib.pdb

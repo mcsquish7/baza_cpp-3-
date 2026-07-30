@@ -1,0 +1,2 @@
+F:\cpp_netology\FigureDynLibClient\Debug\FigureDynLibClient.exe
+F:\cpp_netology\FigureDynLibClient\Debug\FigureDynLibClient.pdb

@@ -1,0 +1,2 @@
+F:\cpp_netology\GreeterStaticLib\Debug\GreeterStaticLib.lib
+F:\cpp_netology\GreeterStaticLib\Debug\GreeterStaticLib.pdb
