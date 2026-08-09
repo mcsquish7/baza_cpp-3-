@@ -1,0 +1,68 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MODULE_3_gonki",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "GonkaCMakeDynLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GonkaCMakeDynLib-Debug-67e79de9253dd3248daf.json",
+					"name" : "GonkaCMakeDynLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MODULE_3_gonkiExe::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MODULE_3_gonkiExe-Debug-ff0c719b1a6604525aae.json",
+					"name" : "MODULE_3_gonkiExe",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "F:/cpp_netology/MODULE_3_gonki/out/build/x64-Debug (по умолчанию)",
+		"source" : "F:/cpp_netology/MODULE_3_gonki"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}
